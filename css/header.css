@@ -14,17 +14,17 @@ header {
     justify-content: space-between;
  }
 
-h1 {
+.header-h1 {
     color: #D0ECF2;
-    text-shadow: 5px 3px 5px black; 
-    font-family: 'Fira Code';
+    text-shadow: 5px 3px 0px black; 
+    font-family: 'Press Start 2P';
     font-style: normal;
    
 }
 
  nav {
     text-align: right;
-    text-shadow: 5px 3px 5px black;
+    text-shadow: 5px 3px 0px black;
 }
 
 a {
@@ -54,7 +54,7 @@ a::before {
     box-shadow: 5px 5px 0px #000000;
     padding: 18px 20px;
     margin-right: 0px;
-    text-shadow: 2px 2px 5px white;
+    text-shadow: none;
     transition: transition 100ms linear;
 }
 
