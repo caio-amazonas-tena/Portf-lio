@@ -2,7 +2,7 @@ body {
     margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 100%; 
 }
 
 header {
@@ -18,30 +18,22 @@ header {
     color: #D0ECF2;
     text-shadow: 5px 3px 0px black; 
     font-family: 'Press Start 2P';
-    font-style: normal;
-   
 }
 
- nav {
-    text-align: right;
-    text-shadow: 5px 3px 0px black;
-}
-
-a {
+ .nav-link {
     color: #D0ECF2;
     font-family: 'Fira Code';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     margin-right: 30px;
-    text-decoration: none;
     display: inline-flex;
     align-items: center;
     text-shadow: 2px 2px 0px black;
+    text-decoration: none;
    
 }
 
-a::before {
+.nav-link::before {
     content: "";
     background-color: #607EA6;
     width: 10px;
@@ -49,16 +41,19 @@ a::before {
     margin-right: 10px;
 }
 
-#button {
+.nav-btn {
     display: inline-block;
+    color: #000000;
     background: #F25A70;
     box-shadow: 5px 5px 0px #000000;
     padding: 18px 20px;
-    margin-right: 0px;
-    text-shadow: none;
+    font-family: 'Fira Code';
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
     transition: transition 100ms linear;
 }
 
-#button:hover {
+.nav-btn:hover {
     transform: scale(1.08)
 }
