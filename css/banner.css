@@ -1,0 +1,50 @@
+.banner {
+    background-image: url(../assets/img/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid black;
+    height: 600px;
+    }
+
+.banner-btns {
+    margin: 80px 200px;
+}
+
+.banner-box {
+    display: inline-block;
+    background-color:#024050;
+    background-size: contain;
+    box-shadow: 10px 10px 0 black;
+    padding: 35px 45px;
+    margin-top: 115px;
+    margin-left: 90px;
+}
+ 
+.banner-h1 {
+    color: #F25A70;
+    font-family: 'Press Start 2P';
+    font-weight: 400;
+    font-size: 40px;
+    text-shadow: 5px 3px 0px black;
+}
+
+.banner-h2 {
+    color: white;
+    font-family: 'Press Start 2P';
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: 5px 3px 0px black;
+}
+
+.banner-btn {
+    color: #ffffff;
+    background: #F25A70;
+    box-shadow: 5px 5px 0px #000000;
+    padding: 18px 20px;
+    font-family: 'Fira Code';
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transition 100ms linear;
+    margin-right: 100px;
+}
