@@ -1,0 +1,16 @@
+.section {
+    box-sizing: border-box;
+    background-color: #F25A70;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 10px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.section-title {
+    color: white;
+    font-family: 'Press Start 2P';
+    font-weight: 400;
+    font-size: 35px;
+}

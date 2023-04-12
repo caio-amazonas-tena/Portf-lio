@@ -1,23 +1,31 @@
 .banner {
+    box-sizing: border-box;
     background-image: url(../assets/img/background.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     border-bottom: 10px solid black;
     height: 600px;
+    padding: 80px 60px;
     }
 
+.banner-items {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
 .banner-btns {
-    margin: 80px 200px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .banner-box {
     display: inline-block;
-    background-color:#024050;
+    background-color:#204473;
     background-size: contain;
     box-shadow: 10px 10px 0 black;
     padding: 35px 45px;
-    margin-top: 115px;
-    margin-left: 90px;
+    margin-bottom: 40px;
 }
  
 .banner-h1 {
