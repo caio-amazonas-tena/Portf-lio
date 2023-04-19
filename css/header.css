@@ -20,7 +20,7 @@ header {
     font-family: 'Press Start 2P';
 }
 
- .nav-link {
+.header-nav .link {
     color: #D0ECF2;
     font-family: 'Fira Code';
     font-weight: 500;
@@ -33,7 +33,7 @@ header {
    
 }
 
-.nav-link::before {
+.header-nav .link::before {
     content: "";
     background-color: #607EA6;
     width: 10px;
@@ -41,7 +41,7 @@ header {
     margin-right: 10px;
 }
 
-.nav-btn {
+.header-nav .btn {
     display: inline-block;
     color: #ffffff;
     background: #F25A70;
@@ -54,6 +54,6 @@ header {
     transition: transition 100ms linear;
 }
 
-.nav-btn:hover {
+.header-nav .btn:hover {
     transform: scale(1.08)
 }

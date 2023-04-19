@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     box-sizing: border-box;
     background-image: url(../assets/img/background.jpeg);
     background-repeat: no-repeat;
@@ -8,18 +8,18 @@
     padding: 80px 60px;
     }
 
-.banner-items {
+.main-banner-items {
     display: flex;
     flex-direction: column;
     width: 750px;
 }
 
-.banner-btns {
+.main-banner-items .btns {
     display: flex;
     justify-content: space-around;
 }
 
-.banner-box {
+.main-banner-items .box {
     display: inline-block;
     background-color:#204473;
     background-size: contain;
@@ -27,8 +27,7 @@
     padding: 35px 45px;
     margin-bottom: 40px;
 }
- 
-.banner-h1 {
+ .box .h1 {
     color: #F25A70;
     font-family: 'Press Start 2P';
     font-weight: 400;
@@ -36,7 +35,7 @@
     text-shadow: 5px 3px 0px black;
 }
 
-.banner-h2 {
+.box .h2 {
     color: white;
     font-family: 'Press Start 2P';
     font-weight: 400;
@@ -44,7 +43,7 @@
     text-shadow: 5px 3px 0px black;
 }
 
-.banner-btn {
+.btns .btn {
     color: #ffffff;
     background: #F25A70;
     box-shadow: 5px 5px 0px #000000;

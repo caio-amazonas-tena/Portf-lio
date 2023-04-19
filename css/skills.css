@@ -1,4 +1,4 @@
-.section {
+.main-section {
     box-sizing: border-box;
     background-color: #F25A70;
     padding-top: 50px;
@@ -13,18 +13,20 @@
 .section-title {
     color: white;
     font-family: 'Press Start 2P';
+    text-shadow: 5px 3px 0px black;
     font-weight: 400;
     font-size: 35px;
     display: flex;
     
 }
 
-.skills-direction {
+.main-skills {
     display: flex;
     flex-direction: row;
 }
 
-.skills-elements-1 .skills-elements-2 {
+.skills-1, 
+.skills-2 {
     display: flex;
     flex-direction: column;
 }
