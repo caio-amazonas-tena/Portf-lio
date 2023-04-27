@@ -41,7 +41,7 @@ header {
     margin-right: 10px;
 }
 
-.header-nav .btn {
+.btn {
     display: inline-block;
     color: #ffffff;
     background: #F25A70;
@@ -54,6 +54,6 @@ header {
     transition: transition 100ms linear;
 }
 
-.header-nav .btn:hover {
+.btn:hover {
     transform: scale(1.08)
 }
