@@ -1,5 +1,5 @@
 .-description-section {
-    background-color: #F25A70;
+    background-color: #607EA6;
 }
 
 .description {
@@ -9,25 +9,59 @@
     color: white;
     display: flex;
     padding: 0px 50px;
+    margin-top: 100px;
     font-family: 'Fira Code';
 }
 
 .button-arrow {  
     padding: 10px 20px;
     width: fit-content;
-    background-color: #607EA6;
+    height: fit-content;
+    background-color: #F25A70;
     display: flex;
     justify-content: center;
     align-items: center;
 }   
 
+.about-me {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   position: relative;
+}
+
 .about-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
+
+.about-card::before {
+    content: '';
+    box-sizing: border-box;
+    height: 40px;
+    width: 0.5px;
+    border: 5px dashed black;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
 .about-card .title {
-    font-family: 'Fira Code';
-    margin-bottom: 35px;
+    font-family: 'Press Start 2P';
+    font-size: 25px;
+    margin-bottom: 60px;
     color: white;
+}
+
+.about-card .icon {
+    border: black 5px solid;
+    background-color: white;
+    height: 150px;
+}
+
+.fho-card .icon {
+    box-sizing: border-box;
+    padding: 20px;
 }
