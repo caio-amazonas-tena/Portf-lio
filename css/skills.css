@@ -30,12 +30,15 @@
 .main-skills .skills {
     display: flex;
     flex-direction: column;
+    
+
 }
 
 .skills .skill {
     display: flex;
     align-items: center;
     margin: 30px 120px;
+    justify-content: end;
 }
 
 .skill .icon {
