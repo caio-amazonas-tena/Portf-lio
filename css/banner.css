@@ -14,7 +14,7 @@
     width: 750px;
 }
 
-.main-banner-items .btns {
+.main-banner-items .main-btns {
     display: flex;
     justify-content: space-around;
 }

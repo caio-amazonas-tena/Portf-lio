@@ -1,0 +1,37 @@
+.main-form {
+    background-color: #F25A70;
+    padding: 70px;
+}
+
+.main-lable {
+    font-family: 'Fira Code';
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.main-input { 
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 3px solid black;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Fira Code';
+    font-weight: 300;
+    padding: 0px 10px;
+}
+
+.main-input.-mesage {
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.main-btn.-form_btn {
+    background-color: #607EA6;
+    box-shadow: 2px 2px 0px #000000;
+}
+.main-btn.-form_btn:hover {
+    transform: scale(1.01)
+}

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/description.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 
 <body>
@@ -29,7 +30,7 @@
             <a href="" class="link">Projetos</a>
             <a href="" class="link">Sobre</a>
             <a href="" class="link">Contatos</a>
-            <a href="" class="btn" lang="en">Download CV</a>
+            <a href="" class="main-btn" lang="en">Download CV</a>
         </nav>
     </header>
     
@@ -39,9 +40,9 @@
                 <h1 class="h1">Caio A. Tena</h1>
                 <h2 class="h2">FrontEnd Developer</h2>
             </div>
-            <div class="btns">
-                <a  href="" class="btn">Contatos</a>
-                <a  href="" class="btn" lang="en">Download CV</a>
+            <div class="main-btns">
+                <a  href="" class="main-btn">Contatos</a>
+                <a  href="" class="main-btn" lang="en">Download CV</a>
             </div> 
         </div>   
     </section>
@@ -55,7 +56,7 @@
                     <img class="icon" src="assets/img/ico_html5.png" alt="ícone html 5">
                     <div class="right">   
                         <h3 class="title">HTML</h3>
-                        <progress class="bar" max="100" value="70">70%</progress>
+                        <progress class="bar" max="100" value="50">50%</progress>
                     </div> 
                 </article>
                 
@@ -63,7 +64,7 @@
                     <img class="icon" src="assets/img/ico_css3.png" alt="ícone css">
                     <div class="right">   
                         <h3 class="title">CSS</h3>
-                        <progress class="bar" max="100" value="70">70%</progress>
+                        <progress class="bar" max="100" value="50">50%</progress>
                     </div> 
                 </article>
                 
@@ -71,7 +72,7 @@
                     <img class="icon" src="assets/img/ico_js.png" alt="ícone java script">
                     <div class="right">   
                         <h3 class="title">Java Script</h3>
-                        <progress class="bar" max="100" value="0">0%</progress>
+                        <progress class="bar" max="100" value="10">10%</progress>
                     </div> 
                 </article>
                 
@@ -159,6 +160,21 @@
         <p class="description">Atualmente cursando Sistemas de Informação na cidade onde moro, Araras, interior de São Paulo, tenho me dedicado a ingressar no mundo do desenvolvimento e expandir o meu conhecimento na área de tecnologia. Minha experência profissional advêm de outras áreas como o atendimento ao público e varejo, mas sendo elas mais do que o suficiente para eu ter tido o insight de onde realmente consigo demonstrar o meu valor. Sempre exergando o'que as pessoas tem de mellhor a oferecer e ensinar, tenho uma atitude interpessoal muito bem humorada e sociável.</p>
     </section>
 
+    <form class="main-section main-form">
+        <legend class="section-title">Contatos</legend>
+
+        <label class="main-lable" for="name">Name</label>
+        <input class="main-input" type="text" id="name" required>
+        
+        <label class="main-lable" for="email">Email</label>
+        <input class="main-input" type="email" id="email" required>
+        
+        <label class="main-lable" for="messsage">Mensagem</label>
+        <textarea class="main-input -mesage" name="message" id="message" required></textarea>
+
+        <button class="main-btn -form_btn" type="submit">Enviar</button>
+    </form> 
+    
     <footer class="social-medias">
         <a class ="social-medias -icon" href="https://www.instagram.com/_caiio7/" target="_blank"><img src="assets/img/instagran-icon.png" alt=""></a>
         <a class ="social-medias -icon" href="https://www.linkedin.com/in/caio-amazonas-tena-71098a272/" target="_blank"><img src="assets/img/linkdin-icon.png" alt=""></a>

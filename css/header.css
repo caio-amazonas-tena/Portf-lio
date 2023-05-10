@@ -41,7 +41,7 @@ header {
     margin-right: 10px;
 }
 
-.btn {
+.main-btn {
     display: inline-block;
     color: #ffffff;
     background: #F25A70;
@@ -52,8 +52,9 @@ header {
     font-size: 20px;
     text-decoration: none;
     transition: transition 100ms linear;
+    cursor: pointer;
 }
 
-.btn:hover {
+.main-btn:hover {
     transform: scale(1.08)
 }
